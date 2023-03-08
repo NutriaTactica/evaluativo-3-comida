@@ -1,0 +1,115 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@font-face {
+    font-family: 'Hatton light';
+    src: url('/Fuente/PPHatton-Ultralight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('/Fuente/PPHatton-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --morado:#3c0f48;
+    --beige:#fed9d9;
+    --ligth:'Hatton';
+}
+
+#navbartlf{
+    background-color: var(--beige);
+    
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    h1{
+        font-family: 'Hatton';
+        margin-right: 30px;
+    }
+}
+
+#menu{
+    background-color: var(--beige);
+}
+
+#canvaslink{
+    text-align: center;
+
+   a{
+    
+    text-decoration: none;
+    border-bottom: 1px solid var(--morado);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    font-weight: lighter;
+   }
+}
+
+#navbar{
+    font-size: 25px;
+    background-color: var(--beige);
+    color: #3c0f48;
+
+
+    li{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.fuente{
+    font-family: var(--ligth);
+}
+
+#PaoFondo{
+    img{
+        width: 100%;
+    }
+}
+
+/*TARJETAS*/
+
+#presentacion{
+    font-family: 'Hatton';
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px  solid black;
+    border-bottom: 1px solid black;
+}
+
+#presentacion2{
+    line-height: 70px;
+    height: 70px;
+    border-top: 1px  solid black;
+    border-bottom: 1px solid black;
+}
+
+#presentacion3{
+  border-top: 1px  solid black; 
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#card{
+    font-family: 'Hatton';
+    width: 40%;
+    a{
+        color: black;  
+    }
+    
+    
+}

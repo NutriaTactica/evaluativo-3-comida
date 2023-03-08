@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Nutria Restaurant</title>
+    <link rel="shortcut icon" href="img\portada.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--BARRA DE NAVEGACION TLF-->
+    <nav class="navbar" id="navbartlf">
+    <a class="btn" data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="offcanvasExample">
+      <img src="img\list.svg" alt="">
+    </a>
+    <a class="btn" data-bs-toggle="offcanvas" href="#menu">
+      <img src="img\person.svg" alt="">
+    </a>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menu" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title fw-light" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div>
+        <div class="offcanvas-body d-flex flex-column" id="canvaslink">
+          <a href="#inicio">
+            Inicio
+          </a>
+          <a href="#contenedora">
+            Historia
+          </a>
+          <a href="#contenedor">
+            Menu
+          </a>
+          <a href="#presentacion2">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--NAVBAR TLF-->
+    <!--NAVBAR PC-->
+      <nav
+      id="navbar"
+      class="navbar navbar-expand-lg justify-content-center fixed-top shadow fw-light text-center d-none d-md-flex"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item " aria-current="page">
+          <a class="nav-link active" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active" href="#contenedora">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contenedor">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#presentacion2">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="PaoFondo">
+      <img src="img\portada.jpg" alt="" />
+    </div>
+    <!--NAVBAR PC-->
+    <!--FIN NAVEGACION-->
+    <!--CUERPO-->
+<br>
+<h1 class="text-center m-4 d-block" id="contenedora">Quienes somos?</h1>
+    <br>
+    <div class="text-center">
+    Somos un pequeño restaurant venezolano que va comenzando xd
+    <br><br>
+    <div class="imagen-first"><img src="img\hambur historia.jpg" alt="historia" width="30%" height="30%"></div>
+  </div>
+    <h1 class="text-center m-4 d-block" id="presentacion">Todo en comidas</h1>
+
+    <div id="contenedor">
+    <div class="card border-0" id="card">
+      <a href=""><img src="img\hamb.jpg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Hamburguesas</p></a>
+      </div>
+    </div>
+    <div class="card border-0" id="card">
+      <a href=""><img src="img\pizzas.jpeg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Pizzas</p></a>
+      </div>
+    </div>
+    <div class="card border-0" id="card">
+      <a href=""><img src="img\shaw.png" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Shawarma</p></a>
+      </div>
+    </div>
+    <a href=""><div class="card border-0" id="card">
+      <a href=""><img src="img\arepaa.jpg" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <a href=""><p class="card-text text-center">Arepas</p></a>
+      </div>
+    </div>
+  </div>
+
+
+<h2 class="text-center fuente m-4" id="presentacion2">Contactanos</h2>
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <p>Dirección de el restaurant
+          Urb la paz<br>
+           Teléfono: 04120778082<br>
+           Correo electrónico: nutriarestaurant@gmail.com</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <hr>
+        <p class="text-center">&copy; 2023 lanutriarestaurant.com - Todos los derechos reservados - Creado por Jesus Abreu</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    <!-- FIN CUERPO-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
